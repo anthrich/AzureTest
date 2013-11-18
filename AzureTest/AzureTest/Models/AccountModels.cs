@@ -11,7 +11,7 @@ namespace AzureTest.Models
     public class UsersContext : DbContext
     {
         public UsersContext()
-            : base("DefaultConnection")
+            : base("FreeDB20")
         {
         }
 
